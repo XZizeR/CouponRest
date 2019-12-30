@@ -4,5 +4,4 @@ through user-name and user-password. Enables you using coupons as  an object
 connected to you, through the SQL data managing services by Hibernate and
 Jakarta Persistence (JPA). The platform able to add, update, perform data by
 logged user, with a thread that deletes out-dated coupons, and can connect to
-Angular through Rest. data by logged user, with a thread that deletes out-dated
-coupons.
+Angular through Rest.
