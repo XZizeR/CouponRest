@@ -8,7 +8,7 @@ public class IdDoesntExistsException extends Exception {
 	private static final long serialVersionUID = 1L;
 
 	public IdDoesntExistsException() {
-		super("Java: The typed ID number doesn't exists!");
+		super("The typed ID number doesn't exists!");
 	}
 
 }
