@@ -1084,9 +1084,8 @@ let AdminCompAddComponent = class AdminCompAddComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminCompAddComponent.ctorParameters = () => [
@@ -1169,9 +1168,8 @@ let AdminCompDeleteComponent = class AdminCompDeleteComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminCompDeleteComponent.ctorParameters = () => [
@@ -1253,9 +1251,8 @@ let AdminCompGetAllComponent = class AdminCompGetAllComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminCompGetAllComponent.ctorParameters = () => [
@@ -1343,9 +1340,8 @@ let AdminCompGetOneComponent = class AdminCompGetOneComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminCompGetOneComponent.ctorParameters = () => [
@@ -1427,9 +1423,8 @@ let AdminCompUpdateComponent = class AdminCompUpdateComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminCompUpdateComponent.ctorParameters = () => [
@@ -1511,9 +1506,8 @@ let AdminCustAddComponent = class AdminCustAddComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminCustAddComponent.ctorParameters = () => [
@@ -1596,9 +1590,8 @@ let AdminCustDeleteComponent = class AdminCustDeleteComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminCustDeleteComponent.ctorParameters = () => [
@@ -1680,9 +1673,8 @@ let AdminCustGetallComponent = class AdminCustGetallComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminCustGetallComponent.ctorParameters = () => [
@@ -1770,9 +1762,8 @@ let AdminCustGetoneComponent = class AdminCustGetoneComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminCustGetoneComponent.ctorParameters = () => [
@@ -1855,9 +1846,8 @@ let AdminCustUpdateComponent = class AdminCustUpdateComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminCustUpdateComponent.ctorParameters = () => [
@@ -1917,9 +1907,8 @@ let AdminComponent = class AdminComponent {
     ngOnInit() {
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 AdminComponent.ctorParameters = () => [
@@ -2005,9 +1994,8 @@ let CompanyCoupAddComponent = class CompanyCoupAddComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CompanyCoupAddComponent.ctorParameters = () => [
@@ -2093,9 +2081,8 @@ let CompanyCoupAllCatComponent = class CompanyCoupAllCatComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CompanyCoupAllCatComponent.ctorParameters = () => [
@@ -2180,9 +2167,8 @@ let CompanyCoupAllMaxComponent = class CompanyCoupAllMaxComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CompanyCoupAllMaxComponent.ctorParameters = () => [
@@ -2264,9 +2250,8 @@ let CompanyCoupAllComponent = class CompanyCoupAllComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CompanyCoupAllComponent.ctorParameters = () => [
@@ -2349,9 +2334,8 @@ let CompanyCoupDeleteComponent = class CompanyCoupDeleteComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CompanyCoupDeleteComponent.ctorParameters = () => [
@@ -2441,9 +2425,8 @@ let CompanyCoupUpdateComponent = class CompanyCoupUpdateComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
     getCoupon(id) {
         this.compServ.getOneCoupon(id).subscribe((data) => {
@@ -2533,9 +2516,8 @@ let CompanyDetailsComponent = class CompanyDetailsComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CompanyDetailsComponent.ctorParameters = () => [
@@ -2595,9 +2577,8 @@ let CompanyComponent = class CompanyComponent {
     ngOnInit() {
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CompanyComponent.ctorParameters = () => [
@@ -2680,9 +2661,8 @@ let CustomerCoupAllCatComponent = class CustomerCoupAllCatComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CustomerCoupAllCatComponent.ctorParameters = () => [
@@ -2767,9 +2747,8 @@ let CustomerCoupAllMaxComponent = class CustomerCoupAllMaxComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CustomerCoupAllMaxComponent.ctorParameters = () => [
@@ -2846,9 +2825,8 @@ let CustomerCoupAllComponent = class CustomerCoupAllComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CustomerCoupAllComponent.ctorParameters = () => [
@@ -2932,9 +2910,8 @@ let CustomerCoupPurchaseComponent = class CustomerCoupPurchaseComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CustomerCoupPurchaseComponent.ctorParameters = () => [
@@ -3013,9 +2990,8 @@ let CustomerCustCouponsAllComponent = class CustomerCustCouponsAllComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CustomerCustCouponsAllComponent.ctorParameters = () => [
@@ -3095,9 +3071,8 @@ let CustomerDetailsComponent = class CustomerDetailsComponent {
         this.location.back();
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CustomerDetailsComponent.ctorParameters = () => [
@@ -3157,9 +3132,8 @@ let CustomerComponent = class CustomerComponent {
     ngOnInit() {
     }
     logout() {
-        this.loginService.logout(sessionStorage.token).subscribe((response) => {
-            this.router.navigate(["/home"]);
-        });
+        this.loginService.logout();
+        this.router.navigate(["/home"]);
     }
 };
 CustomerComponent.ctorParameters = () => [
@@ -3917,8 +3891,10 @@ let LoginService = class LoginService {
     login(email, pass, type) {
         return this.client.post(this.basePath + "/login/" + email + "/" + pass + "/" + type, null, { responseType: 'text' });
     }
-    logout(login) {
-        return this.client.post(this.basePath + "/logout/" + sessionStorage.token, login);
+    logout() {
+        this.client.post(this.basePath + "/logout/" + sessionStorage.getItem("token"), null);
+        sessionStorage.removeItem("token");
+        alert("logged out successfully!");
     }
 };
 LoginService.ctorParameters = () => [

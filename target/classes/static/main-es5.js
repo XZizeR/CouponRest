@@ -991,10 +991,8 @@
                     this.location.back();
                 };
                 AdminCompAddComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminCompAddComponent;
             }());
@@ -1066,10 +1064,8 @@
                     this.location.back();
                 };
                 AdminCompDeleteComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminCompDeleteComponent;
             }());
@@ -1141,10 +1137,8 @@
                     this.location.back();
                 };
                 AdminCompGetAllComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminCompGetAllComponent;
             }());
@@ -1221,10 +1215,8 @@
                     this.location.back();
                 };
                 AdminCompGetOneComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminCompGetOneComponent;
             }());
@@ -1294,10 +1286,8 @@
                     this.location.back();
                 };
                 AdminCompUpdateComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminCompUpdateComponent;
             }());
@@ -1367,10 +1357,8 @@
                     this.location.back();
                 };
                 AdminCustAddComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminCustAddComponent;
             }());
@@ -1442,10 +1430,8 @@
                     this.location.back();
                 };
                 AdminCustDeleteComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminCustDeleteComponent;
             }());
@@ -1517,10 +1503,8 @@
                     this.location.back();
                 };
                 AdminCustGetallComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminCustGetallComponent;
             }());
@@ -1597,10 +1581,8 @@
                     this.location.back();
                 };
                 AdminCustGetoneComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminCustGetoneComponent;
             }());
@@ -1671,10 +1653,8 @@
                     this.location.back();
                 };
                 AdminCustUpdateComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminCustUpdateComponent;
             }());
@@ -1725,10 +1705,8 @@
                 AdminComponent.prototype.ngOnInit = function () {
                 };
                 AdminComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return AdminComponent;
             }());
@@ -1802,10 +1780,8 @@
                     this.location.back();
                 };
                 CompanyCoupAddComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CompanyCoupAddComponent;
             }());
@@ -1881,10 +1857,8 @@
                     this.location.back();
                 };
                 CompanyCoupAllCatComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CompanyCoupAllCatComponent;
             }());
@@ -1959,10 +1933,8 @@
                     this.location.back();
                 };
                 CompanyCoupAllMaxComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CompanyCoupAllMaxComponent;
             }());
@@ -2034,10 +2006,8 @@
                     this.location.back();
                 };
                 CompanyCoupAllComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CompanyCoupAllComponent;
             }());
@@ -2109,10 +2079,8 @@
                     this.location.back();
                 };
                 CompanyCoupDeleteComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CompanyCoupDeleteComponent;
             }());
@@ -2190,10 +2158,8 @@
                     this.location.back();
                 };
                 CompanyCoupUpdateComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 CompanyCoupUpdateComponent.prototype.getCoupon = function (id) {
                     var _this = this;
@@ -2273,10 +2239,8 @@
                     this.location.back();
                 };
                 CompanyDetailsComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CompanyDetailsComponent;
             }());
@@ -2327,10 +2291,8 @@
                 CompanyComponent.prototype.ngOnInit = function () {
                 };
                 CompanyComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CompanyComponent;
             }());
@@ -2403,10 +2365,8 @@
                     this.location.back();
                 };
                 CustomerCoupAllCatComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CustomerCoupAllCatComponent;
             }());
@@ -2481,10 +2441,8 @@
                     this.location.back();
                 };
                 CustomerCoupAllMaxComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CustomerCoupAllMaxComponent;
             }());
@@ -2551,10 +2509,8 @@
                     this.location.back();
                 };
                 CustomerCoupAllComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CustomerCoupAllComponent;
             }());
@@ -2627,10 +2583,8 @@
                     this.location.back();
                 };
                 CustomerCoupPurchaseComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CustomerCoupPurchaseComponent;
             }());
@@ -2699,10 +2653,8 @@
                     this.location.back();
                 };
                 CustomerCustCouponsAllComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CustomerCustCouponsAllComponent;
             }());
@@ -2771,10 +2723,8 @@
                     this.location.back();
                 };
                 CustomerDetailsComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CustomerDetailsComponent;
             }());
@@ -2825,10 +2775,8 @@
                 CustomerComponent.prototype.ngOnInit = function () {
                 };
                 CustomerComponent.prototype.logout = function () {
-                    var _this = this;
-                    this.loginService.logout(sessionStorage.token).subscribe(function (response) {
-                        _this.router.navigate(["/home"]);
-                    });
+                    this.loginService.logout();
+                    this.router.navigate(["/home"]);
                 };
                 return CustomerComponent;
             }());
@@ -3502,8 +3450,10 @@
                 LoginService.prototype.login = function (email, pass, type) {
                     return this.client.post(this.basePath + "/login/" + email + "/" + pass + "/" + type, null, { responseType: 'text' });
                 };
-                LoginService.prototype.logout = function (login) {
-                    return this.client.post(this.basePath + "/logout/" + sessionStorage.token, login);
+                LoginService.prototype.logout = function () {
+                    this.client.post(this.basePath + "/logout/" + sessionStorage.getItem("token"), null);
+                    sessionStorage.removeItem("token");
+                    alert("logged out successfully!");
                 };
                 return LoginService;
             }());
