@@ -6,7 +6,7 @@ Jakarta Persistence (JPA). The platform able to add, update, delete and show dat
 logged user, with a thread that deletes out-dated coupons, and can connect to
 Angular through Rest.
 
-admin access:
+admin access.
 email: admin@admin.com
 password: admin
 type: admin
